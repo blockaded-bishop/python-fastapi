@@ -14,3 +14,4 @@ def get_posts():
 def create_posts(payLoad: dict = Body(...)):
     print(payLoad)
     return{"newpost": f"title > {payLoad['title']}, content > {payLoad['content']}"}
+#some random comment
